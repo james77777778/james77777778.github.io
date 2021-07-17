@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: "james77777778技術與隨想筆記"
 subtitle: "紀錄生活與工作的部落格" # 子標題，位於網站名稱下方
-email: james77777778@gmail.com
 description: ""
 repository : "james77777778/james77777778.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: default
@@ -59,7 +58,7 @@ plugins:
 author:
   name   : "james77777778"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "懷抱夢想的DL/AI兼後端工程師"
+  bio    : ""
   location : "Taipei, Taiwan"
   links:
     - label: "HomePage"
