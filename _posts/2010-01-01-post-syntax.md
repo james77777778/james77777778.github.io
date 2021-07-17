@@ -3,9 +3,9 @@ title: "貼文語法"
 date: 2021-07-17
 last_modified_at: 2021-07-17
 categories:
-  - 部落格
+  - blog
 tags:
-  - 貼文語法
+  - post
 ---
 
 ## 增加貼文方法
