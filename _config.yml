@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: james77777778技術與隨想筆記
+title: "james77777778技術與隨想筆記"
+subtitle: "紀錄生活與工作的部落格" # 子標題，位於網站名稱下方
 email: james77777778@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  這是一個紀錄生活與工作的部落格，主要專注在DL(PyTorch, Darknet)與Python, Golang的技術筆記。
-# twitter_username: username
-github_username: james77777778
+description: ""
+repository : "james77777778/james77777778.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: default
 search: true
+locale: "zh-TW"  # 自己的地區
 
 # Build settings
 markdown: kramdown
@@ -29,10 +29,11 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Taipei
 
 include:
   - _pages
+
+encoding: "utf-8"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -59,8 +60,9 @@ author:
   name   : "james77777778"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "懷抱夢想的DL/AI兼後端工程師"
+  location : "Taipei, Taiwan"
   links:
-    - label: "Website"
+    - label: "HomePage"
       icon: "fas fa-fw fa-link"
       url: "https://james77777778.github.io/"
     - label: "GitHub"
@@ -72,9 +74,9 @@ author:
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/james77777778"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/james77777778"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
